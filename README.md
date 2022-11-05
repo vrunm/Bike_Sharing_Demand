@@ -40,10 +40,10 @@ Results from the Exploratory Data Analysis:
 
 Results from Regression Analysis:
 Different Regressors are used on the models:
-BaggingRegressor
-AdaBoostRegressor
-RandomForestRegressor
-KNeighborsRegressor
+1.BaggingRegressor
+2.AdaBoostRegressor
+3.RandomForestRegressor
+4.KNeighborsRegressor
 
 Comparing the MSE values for the different models
 It can be seen that the Random Forest Model performs the best. It does not suffer from overfitting
