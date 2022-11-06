@@ -30,9 +30,9 @@ registered - number of registered user rentals initiated
 count - number of total rentals
 
 Results from the Exploratory Data Analysis:
-1.During Summer the most rides are taken
-2.The highest demand for bikes is from 7-10am and 3-7pm these being the office times for most metro cities
-3.The highest dmeand for bikes is when the temperature range is in between 30-35
+1.During Summer the most rides are taken.
+2.The highest demand for bikes is from 7-10am and 3-7pm these being the office times for most metro cities.
+3.The highest dmeand for bikes is when the temperature range is in between 30-35.
 
 Results from Regression Analysis:
 Different Regressors are used on the models:
