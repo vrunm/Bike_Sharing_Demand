@@ -3,8 +3,6 @@ Bike sharing systems are a means of renting bicycles where the process of obtain
 
 The data set was obtained from the Capital Bikeshare program in Washington, D.C. which contained the historical bike usage pattern with weather data spanning two years.
 
-
-
 Results from the Exploratory Data Analysis:
 1.During Summer the most rides are taken.
 2.The highest demand for bikes is from 7-10am and 3-7pm these being the office times for most metro cities.
@@ -12,10 +10,13 @@ Results from the Exploratory Data Analysis:
 
 Results from Regression Analysis:
 Different Regressors are used on the models:
-1.BaggingRegressor
-2.AdaBoostRegressor
-3.RandomForestRegressor
-4.KNeighborsRegressor
+1.Linear Regression
+2.Lasso Regression
+3.Ridge Regressiom
+4.BaggingRegressor
+5.AdaBoostRegressor
+6.RandomForestRegressor
+7.KNeighborsRegressor
 
 Comparing the MSE values for the different models
 It can be seen that the Random Forest Regressor Model performs the best.
