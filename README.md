@@ -18,7 +18,7 @@ Different Regressors are used on the models:
 6.RandomForestRegressor
 7.KNeighborsRegressor
 
-Comparing the MSE values for the different models
+Comparing the MSE and r2 values for the different models:
 It can be seen that the Random Forest Regressor Model performs the best.
 Using the Random Forest Regressor model given several time and weather considerations for the day we are able to predict the no of bikes that will rented on a particular day.
 
