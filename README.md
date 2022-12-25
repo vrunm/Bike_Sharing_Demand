@@ -21,8 +21,8 @@ The results from all the models have been summarized below:
 |       **Lasso Regression** _\(default\)_     |    0.77   |    62\.92     |      
 |      **Ridge Regression** _\(fine\-tuned\)_  |    0.85    |    80\.74     |       
 |     **BaggingRegressor** _\(fine\-tuned\)_   |    0.86    |    86\.42     |       
-| **RandomForestRegressor** _\(XGB \+ LGBM\)_  |  **0.91**  |  **96\.72**   |     
-| **KNeighborsRegressor** _\(XGB \+ LGBM\)_    |  **0.88**  |  **96\.72**   |     
+| **RandomForestRegressor** _\(fine\-tuned\)_  |  **0.91**  |  **96\.72**   |     
+| **KNeighborsRegressor** _\(fine\-tuned\)_    |  **0.88**  |  **96\.72**   |     
 
 
 
