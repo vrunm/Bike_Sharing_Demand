@@ -13,15 +13,20 @@ Predict the no of bike rides taken in a day depending on the weather conditions,
 3. The highest demand for bikes is when the temperature range is in between 30-35.
 
 **Results from Regression Analysis:**
+The results from all the models have been summarized below:
 
-Different Regressors have been used on the models:
-1. Linear Regression
-2. Lasso Regression
-3. Ridge Regressiom
-4. BaggingRegressor
-5. AdaBoostRegressor
-6. RandomForestRegressor
-7. KNeighborsRegressor
+|                **Model**                | **R2 Score** | **MSE** | 
+| :-------------------------------------: | :----------: | :-----------: | 
+|        **Linear Regression** _\(default\)_   |    0.75   |    54\.64     |
+|       **Lasso Regression** _\(default\)_     |    0.77   |    62\.92     |      
+|      **Ridge Regression** _\(fine\-tuned\)_  |    0.85    |    80\.74     |       
+|     **BaggingRegressor** _\(fine\-tuned\)_   |    0.86    |    86\.42     |       
+| **RandomForestRegressor** _\(XGB \+ LGBM\)_  |  **0.91**  |  **96\.72**   |     
+| **KNeighborsRegressor** _\(XGB \+ LGBM\)_    |  **0.88**  |  **96\.72**   |     
+
+
+
+
 
 **Comparing the MSE and r2 values for the different models:**
 It can be seen that the Random Forest Regressor Model performs the best.
