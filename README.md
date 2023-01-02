@@ -38,7 +38,7 @@ Predict the no of bike rides taken in a day depending on the weather conditions,
 **Results from Regression Analysis:**
 The results from all the models have been summarized below:
 
-|                **Model**                | **R2 Score** | **MSE** | 
+|                **Model**                | **R<sup>2</sup> Score** | **MSE** | 
 | :-------------------------------------: | :----------: | :-----------: | 
 |        **Linear Regression** _\(default\)_   |    0.75   |    54\.64     |
 |       **Lasso Regression** _\(default\)_     |    0.77   |    62\.92     |      
@@ -51,7 +51,7 @@ The results from all the models have been summarized below:
 
 
 
-**Comparing the MSE and r2 values for the different models:**
+**Comparing the MSE and R<sup>2</sup> values for the different models:**
 It can be seen that the Random Forest Regressor Model performs the best.
 Using the Random Forest Regressor model given several time and weather considerations for the day we are able to predict the no of bikes that will rented on a particular day.
 
