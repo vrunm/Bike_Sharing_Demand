@@ -14,25 +14,31 @@ Predict the no of bike rides taken in a day depending on the weather conditions,
 
 <br>
 
+
 <img src="plots/monthly_count_2011.png" alt="Target Distribution" >
 
 <br>
+
 
 <img src="plots/monthly_count_2012.png" alt="Target Distribution" >
 
 <br>
 
+
 <img src="plots/user_count_hourly.png" alt="Target Distribution" >
 
 <br>
 
+
 <img src="plots/user_count_hourly.png" alt="Target Distribution" >
+
 
 <br>
 
 1. During Summer the most rides are taken.
 2. The highest demand for bikes is from 7-10am and 3-7pm these being the office times for most metro cities.
 3. The highest demand for bikes is when the temperature range is in between 30-35.
+
 
 
 **Results from Regression Analysis:**
