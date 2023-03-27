@@ -4,7 +4,7 @@ Bike sharing systems are a means of renting bicycles where the process of obtain
 
 The data set was obtained from the Capital Bikeshare program in Washington, D.C. which contained the historical bike usage pattern with weather data spanning two years.
 
-Predict the no of bike rides taken in a day depending on the weather conditions,time of the day,no of registered and non registered users.
+Predict the no of bike rides taken in a day depending on the weather conditions, time of the day, no of registered and non registered users.
 
 **Results from the Exploratory Data Analysis:**
 
@@ -59,6 +59,6 @@ The results from all the models have been summarized below:
 
 **Comparing the MSE and R<sup>2</sup> values for the different models:**
 It can be seen that the Random Forest Regressor Model performs the best.
-Using the Random Forest Regressor model given several time and weather considerations for the day we are able to predict the no of bikes that will rented on a particular day.
+Using the Random Forest Regressor model given several time and weather considerations for the day we are able to predict the no of bikes that will be rented on a particular day.
 
 
